@@ -1,0 +1,29 @@
+{
+  "name": "@geomesh/vite-plugin-preconnect",
+  "version": "0.3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geomesh/vite-plugin-preconnect.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc -b",
+    "check": "biome check",
+    "check:fix": "biome check --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.10",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.3"
+  },
+  "peerDependencies": {
+    "vite": ">=6"
+  }
+}

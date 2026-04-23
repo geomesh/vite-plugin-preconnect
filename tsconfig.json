@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2024",
+    "module": "nodenext",
+    "strict": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": true,
+    "composite": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
+    "declarationMap": true
+  },
+  "include": ["src"]
+}
